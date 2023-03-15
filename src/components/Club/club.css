@@ -1,0 +1,58 @@
+
+.club {
+    display: block;
+    margin-top: 105px;
+    height: 100vh;
+    max-width: 100%;
+    
+}
+.club_cuk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.club_cuk h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Lucida Console", Courier, monospace;
+}
+.club_cuk img {
+    border-radius: 15px;
+    height: 70px;
+    margin-top: 10px;
+}
+.club_galery {
+    display:block;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+.club_galery p {
+    text-align: center;
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Lucida Console", Courier, monospace;
+    position: relative;
+}
+@media screen and (max-width:1150px) {
+    
+}
+@media screen and (max-width: 650px) {
+    .navbar { 
+        width: 100%;
+    }
+    .club .club_cuk {
+        display: block;
+        text-align: center;
+      
+    }
+  .club_galery p {
+    margin-left: 80px;
+  }
+  
+ }

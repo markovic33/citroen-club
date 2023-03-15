@@ -1,0 +1,70 @@
+.card {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 45px;
+    top: 150px;
+    background: rgb(214, 202, 202);
+  }
+  .card-order {
+    width: 725px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 45px;
+    top: 131px;
+    background: rgb(214, 202, 202);
+    
+  }
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    transition: transform 0.5s;
+  }
+  .card:hover img {
+    transform: scale(1.2);
+  }
+  .card-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: transparent ;
+    color: rgb(8, 8, 8);
+    transition: transform 0.5s;
+    transform: translateY(100%);
+    
+  }
+  .card:hover .card-content {
+    transform: translateY(0);
+  }
+  .card-content h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  .card-content p {
+    margin: 10px 0 0 ;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  @media screen and (max-width:1150px) {
+    
+  }
+  @media screen and (max-width: 650px) {
+    .card-order {
+     width: 310px;
+    }
+   }
+  

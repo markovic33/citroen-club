@@ -1,0 +1,60 @@
+.old {
+    display: block;
+    margin-top: 120px;
+    font-family: "Lucida Console", Courier, monospace;
+}
+.old h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10%;
+    margin-bottom: 30px;
+    font-family: "Lucida Console", Courier, monospace;
+    
+}
+.firsth-row {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.second-row {
+    display: flex;
+    justify-content: center;
+}
+.dyane {
+    display: block;
+    margin: 25px 30px;
+}
+.dyane_title {
+    text-transform: uppercase;
+}
+.dyane_text {
+    display: flex;
+}
+.dyane_text p {
+    text-align: center;
+    
+}
+.dyane img {
+    width: 250px;
+    height: 150px;
+}
+@media screen and (max-width:1150px) {
+    
+}
+@media screen and (max-width: 650px) {
+  .old {
+    display: block;
+  }
+  .firsth-row {
+    display: block;
+  }
+  .second-row {
+    display: block;
+  }
+  .dyane_text {
+    display: block;
+  }
+  
+ }
